@@ -24,9 +24,19 @@ Thank you for sharing your hard-earned knowledge!
 - [Wget](http://www.gnu.org/software/wget/)
 	- Used for [cookie storage](http://bzr.savannah.gnu.org/lh/wget/trunk/annotate/head:/src/cookies.c#L61). See the [header file here](http://bzr.savannah.gnu.org/lh/wget/trunk/annotate/head:/src/hash.h)
 	
+- [PostgreSQL]()
+	- PostgreSQL uses [dynamic hashing tables](https://github.com/postgres/postgres/blob/master/src/backend/utils/hash/dynahash.c). Read [all about them here](https://github.com/postgres/postgres/blob/master/src/backend/access/hash/README).
 ## Linked Lists
 ## Trees
+
+- [PostgreSQL]()
+	- Red Black trees are used for fast storage of data in the core database engine. See the [header file](https://github.com/postgres/postgres/blob/master/src/include/lib/rbtree.h) and [main file](https://github.com/postgres/postgres/blob/master/src/backend/lib/rbtree.c).
+
 ## Heaps
+
+- [PostgreSQL]()
+	- PostgreSQL uses [Binary Heaps](https://en.wikipedia.org/wiki/Binary_heap) [ see [header](https://github.com/postgres/postgres/blob/master/src/include/lib/binaryheap.h) and [main](https://github.com/postgres/postgres/blob/master/src/backend/lib/binaryheap.c) ] and [Pairing-Heaps](https://en.wikipedia.org/wiki/Pairing_heap) [ see [header](https://github.com/postgres/postgres/blob/master/src/include/lib/pairingheap.h) and [main](https://github.com/postgres/postgres/blob/master/src/backend/lib/pairingheap.c) ]. 
+
 ## Stacks
 ## Queues
 ## Multi Sets
@@ -36,7 +46,7 @@ Thank you for sharing your hard-earned knowledge!
 	
 
 
-## License
+### License
 
 [![Creative Commons License](http://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
