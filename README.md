@@ -26,7 +26,9 @@ Thank you for sharing your hard-earned knowledge!
 	
 - [PostgreSQL]()
 	- PostgreSQL uses [dynamic hashing tables](https://github.com/postgres/postgres/blob/master/src/backend/utils/hash/dynahash.c). Read [all about them here](https://github.com/postgres/postgres/blob/master/src/backend/access/hash/README).
+
 ## Linked Lists
+
 ## Trees
 
 - [PostgreSQL]()
