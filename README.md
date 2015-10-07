@@ -24,19 +24,22 @@ Thank you for sharing your hard-earned knowledge!
 - [Wget](http://www.gnu.org/software/wget/)
 	- Used for [cookie storage](http://bzr.savannah.gnu.org/lh/wget/trunk/annotate/head:/src/cookies.c#L61). See the [header file here](http://bzr.savannah.gnu.org/lh/wget/trunk/annotate/head:/src/hash.h)
 	
-- [PostgreSQL]()
+- [PostgreSQL](http://www.postgresql.org/)
 	- PostgreSQL uses [dynamic hashing tables](https://github.com/postgres/postgres/blob/master/src/backend/utils/hash/dynahash.c). Read [all about them here](https://github.com/postgres/postgres/blob/master/src/backend/access/hash/README).
 
 ## Linked Lists
 
 ## Trees
 
-- [PostgreSQL]()
+- [PostgreSQL](http://www.postgresql.org/)
 	- Red Black trees are used for fast storage of data in the core database engine. See the [header file](https://github.com/postgres/postgres/blob/master/src/include/lib/rbtree.h) and [main file](https://github.com/postgres/postgres/blob/master/src/backend/lib/rbtree.c).
+
+- [RethinkDB](http://rethinkdb.com/)
+	- Every RethinkDB table is represented as a B-tree. An [internal node](https://github.com/rethinkdb/rethinkdb/blob/next/src/btree/node.hpp#L45)/[leaf node](https://github.com/rethinkdb/rethinkdb/blob/next/src/btree/leaf_node.hpp#L42) are the basic structures used (page caches are used to store the blocks of the B-tree) where each node can have multiple children represented by offsets.
 
 ## Heaps
 
-- [PostgreSQL]()
+- [PostgreSQL](http://www.postgresql.org/)
 	- PostgreSQL uses [Binary Heaps](https://en.wikipedia.org/wiki/Binary_heap) [ see [header](https://github.com/postgres/postgres/blob/master/src/include/lib/binaryheap.h) and [main](https://github.com/postgres/postgres/blob/master/src/backend/lib/binaryheap.c) ] and [Pairing-Heaps](https://en.wikipedia.org/wiki/Pairing_heap) [ see [header](https://github.com/postgres/postgres/blob/master/src/include/lib/pairingheap.h) and [main](https://github.com/postgres/postgres/blob/master/src/backend/lib/pairingheap.c) ]. 
 
 ## Stacks
