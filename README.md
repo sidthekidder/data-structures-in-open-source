@@ -27,6 +27,9 @@ Thank you for sharing your hard-earned knowledge!
 - [PostgreSQL](http://www.postgresql.org/)
 	- PostgreSQL uses [dynamic hashing tables](https://github.com/postgres/postgres/blob/master/src/backend/utils/hash/dynahash.c). Read [all about them here](https://github.com/postgres/postgres/blob/master/src/backend/access/hash/README).
 
+- [Git](https://git-scm.com/)
+	- The version control system Git uses hashmaps and hashtables internally ([Documentation](https://github.com/git/git/blob/master/Documentation/technical/api-hashmap.txt)) ([header](https://github.com/git/git/blob/master/hashmap.h) and [main](https://github.com/git/git/blob/master/hashmap.h)). Hashmaps are used in [caches](https://github.com/git/git/blob/master/cache.h#L116), [file name hashes](https://github.com/git/git/blob/master/name-hash.c) etc.
+
 ## Linked Lists
 
 ## Trees
@@ -36,6 +39,9 @@ Thank you for sharing your hard-earned knowledge!
 
 - [RethinkDB](http://rethinkdb.com/)
 	- Every RethinkDB table is represented as a B-tree. An [internal node](https://github.com/rethinkdb/rethinkdb/blob/next/src/btree/node.hpp#L45)/[leaf node](https://github.com/rethinkdb/rethinkdb/blob/next/src/btree/leaf_node.hpp#L42) are the basic structures used (page caches are used to store the blocks of the B-tree) where each node can have multiple children represented by offsets.
+
+- [Git](https://git-scm.com/)
+	- Git has many uses for [trees](https://github.com/git/git/blob/master/tree.h) - [cache trees](https://github.com/git/git/blob/master/cache-tree.h) etc
 
 ## Heaps
 
