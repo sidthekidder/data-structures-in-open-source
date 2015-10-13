@@ -54,6 +54,10 @@ Thank you for sharing your hard-earned knowledge!
 
 ## Stacks
 ## Queues
+
+- [MySQL]()
+	- A [priority-queue](https://github.com/mysql/mysql-server/blob/09ddec8757b57893ccd2f2c2482b3eec5ca811e5/include/priority_queue.h#L35) is used by MySQL, the [base queue implementation](https://github.com/mysql/mysql-server/blob/09ddec8757b57893ccd2f2c2482b3eec5ca811e5/include/queues.h#L19) of which is straight from the textbook - [implementation](https://github.com/mysql/mysql-server/blob/a2757a60a7527407d08115e44e889a25f22c96c6/mysys/queues.c#L16).
+
 ## Multi Sets
 
 - [Recutils](https://www.gnu.org/software/recutils/)
