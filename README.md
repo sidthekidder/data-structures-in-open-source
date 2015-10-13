@@ -30,7 +30,8 @@ Thank you for sharing your hard-earned knowledge!
 - [Git](https://git-scm.com/)
 	- The version control system Git uses hashmaps and hashtables internally ([Documentation](https://github.com/git/git/blob/master/Documentation/technical/api-hashmap.txt)) ([header](https://github.com/git/git/blob/master/hashmap.h) and [main](https://github.com/git/git/blob/master/hashmap.h)). Hashmaps are used in [caches](https://github.com/git/git/blob/master/cache.h#L116), [file name hashes](https://github.com/git/git/blob/master/name-hash.c) etc.
 
-## Linked Lists
+- [MySQL]()
+	- MySQL uses hash structure to store records - see the [header](https://github.com/mysql/mysql-server/blob/a2757a60a7527407d08115e44e889a25f22c96c6/include/hash.h#L62).
 
 ## Trees
 
@@ -42,6 +43,9 @@ Thank you for sharing your hard-earned knowledge!
 
 - [Git](https://git-scm.com/)
 	- Git has many uses for [trees](https://github.com/git/git/blob/master/tree.h) - [cache trees](https://github.com/git/git/blob/master/cache-tree.h) etc
+
+- [MySQL](http://www.postgresql.org/)
+	- Red Black trees are used in its InnoDB storage engine, for indexing primary tables. See the [header](https://github.com/mysql/mysql-server/blob/09ddec8757b57893ccd2f2c2482b3eec5ca811e5/storage/innobase/include/ut0rbt.h#L58) and [implementation](https://github.com/mysql/mysql-server/blob/09ddec8757b57893ccd2f2c2482b3eec5ca811e5/storage/innobase/ut/ut0rbt.cc#L31)
 
 ## Heaps
 
