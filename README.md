@@ -52,6 +52,9 @@ Thank you for sharing your hard-earned knowledge!
 - [D3.js](http://d3js.org/)
 	- This popular visualization library for javascript uses red-black trees for Voronoi geometry. [See its implementation here](https://github.com/mbostock/d3/blob/master/src/geom/voronoi/red-black.js).
 
+- [vamonos](https://github.com/rosulek/vamonos)
+	- This visualization library [uses binary trees in Coffeescript](https://github.com/rosulek/vamonos/blob/master/src/data-structure/binarytree.coffee) for visualization of algorithms. 
+
 ## Heaps
 
 - [PostgreSQL](http://www.postgresql.org/)
