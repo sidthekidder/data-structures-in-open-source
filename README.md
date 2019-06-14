@@ -55,6 +55,9 @@ Thank you for sharing your hard-earned knowledge!
 - [vamonos](https://github.com/rosulek/vamonos)
 	- This visualization library [uses binary trees in Coffeescript](https://github.com/rosulek/vamonos/blob/master/src/data-structure/binarytree.coffee) for visualization of algorithms. 
 
+- [Linux - Completely Fair Scheduler(CFS)](https://developer.ibm.com/tutorials/l-completely-fair-scheduler/)
+	- The new linux version CFS maintains a time-ordered red-black tree to maintain tasks instead of using a run queue. The self-balancing property and the O(logn) operations time help in creating an optimized scheduler.
+
 ## Heaps
 
 - [PostgreSQL](http://www.postgresql.org/)
