@@ -1,10 +1,3 @@
-# Awesome Data Structures in Open Source [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
-A list of data structures used in Open Source projects in various languages and projects around the web. This list is primarily intended for students/developers who want to see real-world usage of various data structures, being used in production code. It is also intended for experienced developers and contributers whose deep knowledge of OSS projects would help students and beginning developers around the world get a feel for raw code, and how theory translates into practice.
-
-All languages, frameworks, and libraries are included, as long as the link demonstrates usage/declaration of a data structure in an open source project.
-
-## Contributing To This List
 
 Please ensure your pull request adheres to the following guidelines:
 
